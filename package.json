@@ -628,7 +628,7 @@
 	],
 	"dependencies": {
 		"@types/jexl": "2.3.4",
-		"axios": "1.7.9",
+		"axios": "1.8.1",
 		"jexl": "2.3.0",
 		"mobx": "6.13.6",
 		"os-browserify": "0.3.0",
@@ -637,7 +637,7 @@
 		"vsls": "1.0.4753"
 	},
 	"devDependencies": {
-		"@types/node": "22.13.4",
+		"@types/node": "22.13.9",
 		"@types/throttle-debounce": "5.0.2",
 		"debug": "4.4.0",
 		"ts-loader": "9.5.2"
