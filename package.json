@@ -1,11 +1,34 @@
 {
 	"name": "codetour",
 	"displayName": "CodeTour",
+	"version": "0.0.1",
+	"private": false,
 	"description": "VS Code extension that allows you to record and playback guided tours of codebases, directly within the editor",
+	"keywords": [
+		"codeeditorland",
+		"land",
+		"playform"
+	],
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/Codetour#readme",
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/Codetour/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+HTTPS://github.com/CodeEditorLand/Codetour.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Source 🖋️ Open 👐🏻",
+		"email": "Source/Open@Editor.Land",
+		"url": "HTTPS://Editor.Land"
+	},
+	"type": "module",
 	"main": "./dist/extension-node.js",
 	"browser": "./dist/extension-web.js",
 	"scripts": {
-		"build": "webpack --mode production"
+		"build": "webpack --mode production",
+		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"contributes": {
 		"commands": [
@@ -637,10 +660,14 @@
 		"vsls": "1.0.4753"
 	},
 	"devDependencies": {
+		"@playform/build": "0.2.1",
 		"@types/node": "22.13.14",
 		"@types/throttle-debounce": "5.0.2",
 		"debug": "4.4.0",
 		"ts-loader": "9.5.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"icon": "images/icon.png",
 	"extensionKind": [
