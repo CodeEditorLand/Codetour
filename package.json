@@ -660,7 +660,7 @@
 		"vsls": "1.0.4753"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.1",
+		"@playform/build": "0.2.2",
 		"@types/node": "22.14.0",
 		"@types/throttle-debounce": "5.0.2",
 		"debug": "4.4.0",
