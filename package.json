@@ -662,7 +662,7 @@
     "vsls": "^1.0.4753"
   },
   "devDependencies": {
-    "@types/node": "^22.15.30",
+    "@types/node": "^24.0.0",
     "@types/throttle-debounce": "^5.0.2",
     "@types/vscode": "^1.100",
     "@vscode/vsce": "^3.5.0",
